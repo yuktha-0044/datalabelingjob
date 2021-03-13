@@ -1,0 +1,12 @@
+<div class="row-fluid">
+  <div class="span6">
+    <img src="{{hosted_image}}"/>
+  </div>
+  <div class="span6">
+    <cml:select name="pneumonia_present" label="Does this xray indicate pneumonia ?" validates="required">
+      <cml:option value="no" label="No"/>
+      <cml:option value="yes" label="Yes"/>
+      <cml:option value="unknown" label="Maybe"/>
+    </cml:select>
+  </div>
+</div>
